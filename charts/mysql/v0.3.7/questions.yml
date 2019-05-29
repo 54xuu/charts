@@ -40,6 +40,12 @@ questions:
   type: password
   label: MySQL Password
   group: "MySQL Settings"
+- variable: mysqlRootPassword
+  default: ""
+  description: "root user password"
+  type: password
+  label: Root Password
+  group: "MySQL Settings"
 - variable: persistence.enabled
   default: "false"
   description: "Enable persistence using PVC"
